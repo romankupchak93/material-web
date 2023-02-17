@@ -1,5 +1,41 @@
 # Changelog
 
+## [1.0.0-pre.3](https://github.com/material-components/material-web/compare/v1.0.0-pre.2...v1.0.0-pre.3) (2023-02-17)
+
+
+### ⚠ BREAKING CHANGES
+
+* **list,menu:** move to `-text-type` tokens
+* **dialog:** migrate to `header-type` and `supporting-text-type` tokens
+* **button:** replace label-text-* tokens with label-text-type
+* **field & dependents:** convert to use text-type tokens
+* **all:** checkbox container-width/height tokens have been renamed to container-size
+* **ripple:** remove "state-layer" from token names
+* **all:** use shape.resolve-tokens and remove shape.resolve-theme
+
+### Features
+
+* **shape, string-ext:** Allow shape corners to fall back to a single custom property ([1afd925](https://github.com/material-components/material-web/commit/1afd9259adacf4cdf429dd0648b82bd23b3cdad6))
+* **tokens:** generate v0.160 ([20de321](https://github.com/material-components/material-web/commit/20de321c7449f100187de0663d074b34c03697f2))
+* **typography:** implement resolve-tokens function to use `-text-type` ([1550e8e](https://github.com/material-components/material-web/commit/1550e8e60833687ea7cb059e25aa677e783f14a1))
+
+
+### Bug Fixes
+
+* **all:** update tokens to 0.160 ([9025af3](https://github.com/material-components/material-web/commit/9025af316a0cee7c710e01cedbc8ce58cdd8bcef))
+* **all:** use shape.resolve-tokens and remove shape.resolve-theme ([44a8d74](https://github.com/material-components/material-web/commit/44a8d74f56bfe31a422b93675b4085e0dd4b8876))
+* **button:** replace label-text-* tokens with label-text-type ([69f9a17](https://github.com/material-components/material-web/commit/69f9a17a12fa86e1e2ba04fc35ad9b9f138b68ad))
+* **dialog:** migrate to `header-type` and `supporting-text-type` tokens ([66948a4](https://github.com/material-components/material-web/commit/66948a49011c30b072e645ba958a2a44ce218a8b))
+* **field & dependents:** convert to use text-type tokens ([cc5a7db](https://github.com/material-components/material-web/commit/cc5a7db27d4a2ee58eab1dcd59da59847b94344c))
+* **list,menu:** move to `-text-type` tokens ([45a6d45](https://github.com/material-components/material-web/commit/45a6d45577b217148bc9d6e008c24710e4845b61))
+* **ripple:** remove "state-layer" from token names ([ff84a66](https://github.com/material-components/material-web/commit/ff84a66f3effdd5291781321e11cbbd34001dd26))
+* **testing:** convert test-table to use `-type` tokens ([2046401](https://github.com/material-components/material-web/commit/20464014bb0873253bcf8f14b0e950543292ce6d))
+
+
+### Miscellaneous Chores
+
+* update next version ([77b4864](https://github.com/material-components/material-web/commit/77b48640e5d53a04ba414de77af0ca22316cccd4))
+
 ## [1.0.0-pre.2](https://github.com/material-components/material-web/compare/v1.0.0-pre.1...v1.0.0-pre.2) (2023-02-06)
 
 

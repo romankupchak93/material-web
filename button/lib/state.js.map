@@ -1,0 +1,1 @@
+{"version":3,"file":"state.js","sourceRoot":"","sources":["state.ts"],"names":[],"mappings":"AAAA;;;;GAIG","sourcesContent":["/**\n * @license\n * Copyright 2021 Google LLC\n * SPDX-License-Identifier: Apache-2.0\n */\n\nexport interface ButtonState {\n  disabled: boolean;\n  label: string;\n  trailingIcon: boolean;\n}\n"]}
